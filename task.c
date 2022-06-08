@@ -9,8 +9,16 @@
 #include <fcntl.h>
 #include <signal.h>
 
+/**
+ * main - entry point
+ *
+ * Return: void
+ */
+
 int main(void)
 {
+char *parameter;
+char *command;
 while (1)
 {
 type_prompt();
