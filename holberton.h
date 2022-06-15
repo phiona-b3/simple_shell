@@ -11,6 +11,7 @@
 #include <string.h>
 #include <signal.h>
 
+extern char **environ;
 
 /* program flow */
 

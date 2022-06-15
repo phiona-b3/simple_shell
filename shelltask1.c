@@ -13,7 +13,7 @@ char *PATH = NULL;
 char **av;
 int exitstatus = 0;
 
-signal(SIGNINT, SIG_IGN);
+signal(SIGINT, SIG_IGN);
 PATH = _getenv("PATH");
 if (PATH == NULL)
 return (-1);
